@@ -1,5 +1,5 @@
 Summary:	GNUe Reports - a platform and output-independent reporting system
-#Summary(pl):	
+Summary(pl):	GNUe Reports - niezale¿ny od platformy i wyj¶cia system raportów
 Name:		gnue-reports
 Version:	0.1.7
 Release:	0.1
@@ -13,6 +13,7 @@ BuildRequires:	python-devel
 Requires:	gnue-common
 Requires:	pysablot
 Requires:	python
+Obsoletes:	GNUe-Reports
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -24,10 +25,18 @@ for Text, HTML, Label Stock, and CSV -- with PDF, Postscript, and
 Gnumeric/Excel formats in the works. Reports can output directly to
 a file, as an email attachment, to a printer, or to a HylaFax server.
 
-#%description -l pl
+%description -l pl
+GNUe Reports to niezale¿ny od platformy i wyj¶cia system raportów.
+Czyta definicjê raportu opart± na XML-u i generuje dowolne wyj¶cie
+XML, któ}re nastêpnie mo¿e byæ przet³umaczone na dowolny format, dla
+którego istnieje adapter. GNUe Reports aktualnie ma wyj¶cia do tekstu,
+HTML-a, formatu Label Stock oraz CSV - z formatami PDF, Postscript i
+Gnumeric/Excel w trakcie tworzenia. Reports mo¿e generowaæ wyj¶cie
+bezpo¶rednio do pliku, jako za³±cznik e-maila, na drukarkê lub do
+serwera HylaFax.
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q
 
 %install
 rm -rf $RPM_BUILD_ROOT
