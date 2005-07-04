@@ -5,8 +5,8 @@ Version:	0.1.7
 Release:	0.1
 License:	GPL
 Group:		Libraries/Python
-Source0:	http://www.gnue.org/downloads/current/%{name}-%{version}.tar.gz
-URL:		http://www.gnue.org/
+Source0:	http://www.gnuenterprise.org/downloads/current/%{name}-%{version}.tar.gz
+URL:		http://www.gnuenterprise.org/
 BuildRequires:	gnue-common
 BuildRequires:	python
 BuildRequires:	python-devel
