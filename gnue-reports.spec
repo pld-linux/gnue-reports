@@ -1,5 +1,5 @@
 Summary:	GNUe Reports - a platform and output-independent reporting system
-Summary(pl):	GNUe Reports - niezale¿ny od platformy i wyj¶cia system raportów
+Summary(pl.UTF-8):   GNUe Reports - niezaleÅ¼ny od platformy i wyjÅ›cia system raportÃ³w
 Name:		gnue-reports
 Version:	0.1.7
 Release:	0.1
@@ -26,14 +26,14 @@ for Text, HTML, Label Stock, and CSV -- with PDF, Postscript, and
 Gnumeric/Excel formats in the works. Reports can output directly to
 a file, as an email attachment, to a printer, or to a HylaFax server.
 
-%description -l pl
-GNUe Reports to niezale¿ny od platformy i wyj¶cia system raportów.
-Czyta definicjê raportu opart± na XML-u i generuje dowolne wyj¶cie
-XML, któ}re nastêpnie mo¿e byæ przet³umaczone na dowolny format, dla
-którego istnieje adapter. GNUe Reports aktualnie ma wyj¶cia do tekstu,
+%description -l pl.UTF-8
+GNUe Reports to niezaleÅ¼ny od platformy i wyjÅ›cia system raportÃ³w.
+Czyta definicjÄ™ raportu opartÄ… na XML-u i generuje dowolne wyjÅ›cie
+XML, ktÃ³}re nastÄ™pnie moÅ¼e byÄ‡ przetÅ‚umaczone na dowolny format, dla
+ktÃ³rego istnieje adapter. GNUe Reports aktualnie ma wyjÅ›cia do tekstu,
 HTML-a, formatu Label Stock oraz CSV - z formatami PDF, Postscript i
-Gnumeric/Excel w trakcie tworzenia. Reports mo¿e generowaæ wyj¶cie
-bezpo¶rednio do pliku, jako za³±cznik e-maila, na drukarkê lub do
+Gnumeric/Excel w trakcie tworzenia. Reports moÅ¼e generowaÄ‡ wyjÅ›cie
+bezpoÅ›rednio do pliku, jako zaÅ‚Ä…cznik e-maila, na drukarkÄ™ lub do
 serwera HylaFax.
 
 %prep
