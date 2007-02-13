@@ -1,5 +1,5 @@
 Summary:	GNUe Reports - a platform and output-independent reporting system
-Summary(pl.UTF-8):   GNUe Reports - niezależny od platformy i wyjścia system raportów
+Summary(pl.UTF-8):	GNUe Reports - niezależny od platformy i wyjścia system raportów
 Name:		gnue-reports
 Version:	0.1.7
 Release:	0.1
